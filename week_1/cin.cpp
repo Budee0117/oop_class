@@ -9,7 +9,10 @@ int main()
 	string hobby;
 	cout << " what is your hobby\n";
 	cin >> hobby;
-	cout << "playing " << hobby;
+	cout << "playing " << hobby <<"?\n";
+	string b;
+	cin >> b ;
+	cout << "ok";
 
 	return 0;
 }
