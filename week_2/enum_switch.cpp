@@ -25,3 +25,4 @@ int main()
 		break;
 	}
 }
+//ooriin bagts uusgeed teriigee songoj shalgaj uzeh
