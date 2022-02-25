@@ -11,3 +11,4 @@ int main()
 		i=i+2;
 	}
 }
+//2-s ehleed 10 hurtel zovhon tegsh toog hevleh
