@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+void passByReference(int *x);
+int main()
+{
+    int x = 3;
+    cout <<"Addres " <<&x <<"\n";
+    cout <<"Value " <<x<<"\n";
+    
+    passByReference(&x);
+    cout <<"Addres " <<&x <<"\n";
+    cout <<"Value " <<x<<"\n";
+    
+    return 0;
+}
+void passByReference(int *x)
+{
+    cout<<"----- passByReference end ------";
+    
+    cout <<"Addres " <<&x <<"\n";
+    cout <<"Value " <<*x<<"\n";
+    *x=4;
+    cout <<"Addres " <<&x <<"\n";
+    cout <<"Value " <<*x<<"\n";
+    cout<<"----- passByReference end ------";
+
+}
